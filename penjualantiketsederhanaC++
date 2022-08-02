@@ -1,0 +1,68 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+int tujuan,jenis,jumlah,i;
+
+    cout <<"=== selamat datang ===" << endl;
+    cout <<"Silakan pilih tujuan anda" << endl;
+    cout <<"1.Bandung\n2.Jakarta" << endl;
+    cout <<"Tujuan : ";
+    cin >> tujuan;
+    cout << endl;
+    cout <<"Jenis tiket"<< endl;
+    cout <<"1.Dewasa\n2.Anak"<< endl;
+    cout <<"Pilihan : ";
+    cin >> jenis;
+    cout <<"Jumlah : ";
+    cin >> jumlah;
+    cout << endl;
+
+  switch (tujuan)
+  {
+  case 1 :
+    if (jenis == 1)
+    {
+        for ( i = 0; i < jumlah; i++)
+        {
+            datadiri();
+            cout << endl;
+        }
+        
+    }
+
+    else {
+        for ( i = 0; i < jumlah; i++)
+        {
+            datadiri();
+            cout << endl;
+        }
+        
+    }
+    
+    break;
+  
+  case 2 :
+    if (jenis == 1)
+    {
+        for ( i = 0; i < jumlah; i++)
+        {
+            datadiri();
+            cout << endl;
+        }
+        
+    }
+    
+    else {
+        for ( i = 0; i < jumlah; i++)
+        {
+            datadiri();
+            cout << endl;
+        }
+        
+    }
+    
+    break;
+  }
+}
